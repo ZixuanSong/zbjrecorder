@@ -13,7 +13,7 @@ class Wager:
         self.amount = amount
         self.player = player
 
-    def get_winning(self, doubled: bool = False, bj: bool = False ) -> float:
+    def get_winning(self, doubled: bool = False, bj: bool = False) -> float:
         amount = self.amount
         if doubled:
             amount *= 2
